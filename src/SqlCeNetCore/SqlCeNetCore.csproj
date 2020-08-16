@@ -6,10 +6,6 @@
     <Platforms>x64</Platforms>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <PlatformTarget>x64</PlatformTarget>
-  </PropertyGroup>
-
   <ItemGroup>
     <None Remove="amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
     <None Remove="amd64\Microsoft.VC90.CRT\msvcr90.dll" />
