@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Platforms>x64</Platforms>
   </PropertyGroup>
 
@@ -53,11 +53,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="System.Data.SqlServerCe">
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.1" >
       <HintPath>System.Data.SqlServerCe.dll</HintPath>
     </Reference>
   </ItemGroup>
